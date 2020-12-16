@@ -1,0 +1,44 @@
+.main-header {
+    border-bottom: 1px solid $header-color;
+    padding: 15px;
+    .info {
+        justify-content: space-between;
+        .logo {
+            img {
+                width: 90px;
+                vertical-align: middle;
+                position: relative;
+                bottom: 3px;
+            }
+            span {
+                font-size: 22px;
+                color: $header-color;
+                padding: 0;
+            }
+        }
+        .account {
+            i {
+                font-size: 18px;
+                color: $header-color;
+                cursor: pointer;
+                &:first-child {
+                    margin-right: 15px;
+                }
+            }   
+        }
+    }
+    .menu {
+        margin-top: 15px;
+        li {
+            margin-right: 35px;
+            a {
+                color: $header-color;
+                &.active {
+                    color: $link-color;
+                    padding-bottom: 13px;
+                    border-bottom: 3px solid $link-color;
+                }
+            }
+        }
+    }
+}

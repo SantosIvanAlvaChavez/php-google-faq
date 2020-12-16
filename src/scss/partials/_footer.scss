@@ -1,0 +1,14 @@
+footer {
+    padding: 10px;
+    background: $bg-color;
+    font-size: 12px;
+    .container {
+        justify-content: space-between;
+        li {
+            margin-right: 15px;
+            a {
+                color: $bg-link-color;
+            }
+        }
+    }
+}
